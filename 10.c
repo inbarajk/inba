@@ -2,13 +2,11 @@
 #include<conio.h>
 void main()
 {
-int a,b,c;
+int a,b;
 clrscr();
 printf("\n enter the value of a:");
 scanf("%d",&a);
-printf("\n enter the value of b:");
-scanf("%d",&b);
-c=a+b;
-printf("\n tha value of%d",c);
+b=a++;
+printf("\n tha value of%d",b);
 getch();
 }
