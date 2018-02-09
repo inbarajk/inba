@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
- char n;
+ int n;
  printf("\n the value of:");
  scanf("%d",&n);
  if(n==2)
